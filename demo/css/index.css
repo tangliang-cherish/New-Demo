@@ -1,0 +1,259 @@
+html, body, div, p, ul, li, dl, dt, dd, form, input, select, button, textarea, iframe, table, th, td {
+		font-size: 14px;
+		font-family: "微软雅黑";
+}
+html, body{
+	width: 100%;
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+label{
+	font-weight: 100;
+}
+a:link { 
+	color: #333; 
+	text-decoration: none;
+}
+a:visited { 
+  color: #333;
+ } 
+a:focus { 
+	outline: none; 
+}
+ul li{
+	list-style: none;
+}
+img {
+	 border: 0 none; 
+	 vertical-align: top; 
+}
+button{
+	cursor: pointer;
+	outline:none;
+}
+object{
+	width: 100%;
+}
+.Red{
+	color: red !important;
+}
+.Yellow{
+	color: yellow !important;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.hide{
+	display: none !important;
+}
+.show{
+	display: block !important;
+}
+.InlineBlock{
+	display: inline-block;
+}
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.HeadBox{
+	width: 100%;
+}
+/*顶部菜单*/
+.TopNavBox{
+	width: 100%;
+	height: 80px;
+	background: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.TopNavCont{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+}
+.TopNavContLeft{
+	margin-top: 15px;
+}
+.TopNavContRight .TopNavActive{
+	color: #ff7700;
+	font-weight: bold;
+	/*border-bottom: 2px solid #ff7700;*/
+	height: 78px;
+}
+.TopNavContRight a{
+	display: inline-block;
+	width: 120px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+}
+.TopNavContRight a:hover{
+	color: #ff7700;
+}
+.TopNavContRight a:nth-child(6)
+,.TopNavContRight a:nth-child(7){
+	width: 40px;
+}
+/*banner*/
+.BannerBox{
+	background: url(../img/haibap.png) no-repeat center;
+	width: 100%;
+	height: 500px;
+}
+/*三个区域图 */
+.LuXianBox{
+	width: 1200px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 15px #888888;
+}
+.LuXianBox .TopLuXianImg{
+	display: inline-block;
+	width: 33%;
+	height: 140px;
+	padding-top:60px;
+	text-align: center;
+}
+.LuXianBox .TopLuXianImg p{
+	margin-top: 10px;
+	color: #666;
+}
+.TabelBoxTitle{
+	margin-top: 20px;
+	color: #ff7700;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+.TabelTxtBox .TopLuXianImg{
+	display: inline-block;
+	vertical-align: bottom;
+	width: 33%;
+	height: 100px;
+	padding-top:60px;
+	text-align: center;
+}
+.TabelTxtBox .TopLuXianImg p{
+	margin-top: 10px;
+	font-size: 16px;
+	color: #666;
+	cursor:pointer
+}
+.TabelTxtBox .TopLuXianImg div{
+	margin-top: 10px;
+	font-size: 16px;
+	color: #666;
+	cursor:pointer
+}
+.TabelTxtBox .TopLuXianImg p:hover,
+.TabelTxtBox .TopLuXianImg div:hover{
+	color: #ff7700;
+}
+.TabelBox .TableActive{
+	background: #ffcc00;
+}
+.TabelBox table{
+	margin-top: 10px;
+	width: 100%;
+}
+.TabelBox table th{
+	border: 1px solid white;
+	text-align: center;
+	height: 90px;
+	color: #666;
+	line-height: 30px;
+	background: #dadada;
+}
+.TabelBox table th:nth-child(1){width: 15%;}
+.TabelBox table th:nth-child(2){width: 10%;}
+.TabelBox table th:nth-child(3){width: 15%;}
+.TabelBox table th:nth-child(4){width: 15%;}
+.TabelBox table th:nth-child(5){width: 15%;}
+.TabelBox table th:nth-child(6){width: 10%;}
+.TabelBox table td{
+	color: #666;
+	text-align: center;
+	padding: 10px;
+    border: 1px solid #e1e1e1;
+}
+.TabelBox table tbody tr:nth-child(2n+0){
+	background: #f5f5f5;
+}
+/*交易所*/
+.ExchangeBox,.ExchangeMoneyBox,.PoolsBox{
+	width: 1200px;
+	margin: 20px auto;
+	box-shadow: 0px 0px 15px #888888;
+}
+.ExchangeTxt,.ExchangeMoneyTxt,.PoolsTxt,.FaqTitleBox{
+	padding-top: 20px;
+	color: #ff7700;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+.ExchangeImgBox{
+	cursor: pointer;
+	display: inline-block;
+	width: 20%;
+	height: 100px;
+	padding-top:50px ;
+	margin: 20px;
+	text-align: center;
+	background: #f8f8f8;
+}
+.ExchangeImgBox:hover{
+	box-shadow: 0px 7px 15px #888888;
+}
+.ExchangeImgBox img{
+}
+/*FAQ*/
+.FaqBox{
+	width: 100%;
+	height: 300px;
+	background: #e0e0e0;
+}
+.FaqTxtBox{
+	width: 1200px;
+	margin: 20px auto;
+}
+.FaqTxtBox h3{
+	margin: 20px 0px;
+	cursor: pointer;
+}
+/*底部微信*/
+.FloorBox{
+	width: 100%;
+	background: #eeeeee;
+    padding: 20px 0;
+}
+.FloorImgBox{
+	width: 1200px;
+	margin: 0 auto;
+}
+.FloorWeiXinBox{
+	display: inline-block;
+	margin-left: 15%;
+	cursor: pointer;
+	position: relative;
+}
+.FloorWeiXinHideBox{
+	position: absolute;
+	top:-100px;
+	left: -25px;
+}
