@@ -1,0 +1,160 @@
+//返回background-repeat ,background-position,background-size,background-img的
+function  getBack(tmp,imgSrc) {
+    var backStr = new Object();
+    switch (parseInt(tmp)){
+        case 1: //不使用背景图片
+            backStr.img="none";
+            backStr.repeat="";
+            backStr.size="";
+            backStr.position="";
+            return backStr;
+            break;
+
+        case 2:  //不平铺（居中）
+            backStr.img=imgSrc;
+            backStr.repeat="no-repeat";
+            backStr.size="";
+            backStr.position="center";
+            return backStr;
+            break;
+        case 3:  //完全平铺
+            backStr.img=imgSrc;
+            backStr.repeat="repeat";
+            backStr.size="";
+            backStr.position="";
+            return backStr;
+            break;
+        case 4:  //拉伸平铺
+            backStr.img=imgSrc;
+            backStr.repeat="no-repeat";
+            backStr.size="cover";
+            backStr.position="";
+            return backStr;
+            break;
+        case 5:  //缩放平铺
+            backStr.img=imgSrc;
+            backStr.repeat="no-repeat";
+            backStr.size="100% 100%";
+            backStr.position="";
+            return backStr;
+            break;
+        case 6:  //纵向平铺 左对齐
+            backStr.img=imgSrc;
+            backStr.repeat="repeat-y";
+            backStr.size="";
+            backStr.position="left top";
+            return backStr;
+            break;
+        case 7:  //纵向平铺 中间对齐
+            backStr.img=imgSrc;
+            backStr.repeat="repeat-y";
+            backStr.size="";
+            backStr.position="center top";
+            return backStr;
+            break;
+        case 8:  //纵向平铺 右边对齐
+            backStr.img=imgSrc;
+            backStr.repeat="repeat-y";
+            backStr.size="";
+            backStr.position="right top";
+            return backStr;
+            break;
+        case 9:  //横向平铺 中间对齐
+            backStr.img=imgSrc;
+            backStr.repeat="repeat-x";
+            backStr.size="";
+            backStr.position="left center";
+            return backStr;
+            break;
+        case 10:  //横向平铺 底部对齐
+            backStr.img=imgSrc;
+            backStr.repeat="repeat-x";
+            backStr.size="";
+            backStr.position="left bottom";
+            return backStr;
+            break;
+        case 11:  //横向平铺 顶部对齐
+            backStr.img=imgSrc;
+            backStr.repeat="repeat-x";
+            backStr.size="";
+            backStr.position="left top";
+            return backStr;
+            break;
+        case 12:  //不平铺 左对齐
+            backStr.img=imgSrc;
+            backStr.repeat="no-repeat";
+            backStr.size="";
+            backStr.position="left bottom";
+            return backStr;
+            break;
+        case 13:  //不平铺（右对齐）
+            backStr.img=imgSrc;
+            backStr.repeat="no-repeat";
+            backStr.size="";
+            backStr.position="right bottom";
+            return backStr;
+            break;
+        case 14:  //不平铺（上对齐）
+            backStr.img=imgSrc;
+            backStr.repeat="no-repeat";
+            backStr.size="";
+            backStr.position="left top";
+            return backStr;
+            break;
+        case 15:  //不平铺（上对齐）
+            backStr.img=imgSrc;
+            backStr.repeat="no-repeat";
+            backStr.size="";
+            backStr.position="right top";
+            return backStr;
+            break;
+    }
+}
+//angular.post请求方式
+//			$http({  
+//			   method:'post',  
+//			   url:'http://127.0.0.1:8020/IDC-ISP/data.txt',  
+//			   data:{name:"aaa",id:1,age:20},  
+//			   headers:{'Content-Type': 'application/x-www-form-urlencoded'},  
+//			   transformRequest: function(obj) {  
+//			     var str = [];  
+//			     for(var p in obj){  
+//			       str.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));  
+//			     }  
+//			     return str.join("&");  
+//			   }  
+//			}).success(function(req){  
+//			       console.log(req);  
+//			})  
+
+
+//					$http.get("http://127.0.0.1:8020/IDC-ISP/data.txt").then(function(res){
+//						var li="";
+//						angular.forEach(res.data.nav, function(data,index,array){
+//								var lis="";
+//								if(data.children!=null){
+//									angular.forEach(data.children, function(data,index,array){
+//										lis += "<li><a hre="+data.url+">"+data.name+"</a></li>"
+//									})
+//								}
+//								if(lis.length>0){
+//									lis = "<ul>"+lis+"</ul>"
+//								}
+//								li += "<li><a hre="+data.url+">"+data.name+"</a></li>"+lis
+//							});
+//						tElement.append(li)	
+//					})
+
+var li="";
+				angular.forEach(res.data.nav, function(data,index,array){
+						var lis="";
+						if(data.children!=null){
+							angular.forEach(data.children, function(data,index,array){
+								lis += "<li><a hre="+data.url+">"+data.name+"</a></li>"
+							})
+						}
+						if(lis.length>0){
+							lis = "<ul>"+lis+"</ul>"
+						}
+						li += "<li><a hre="+data.url+">"+data.name+"</a></li>"+lis
+					});

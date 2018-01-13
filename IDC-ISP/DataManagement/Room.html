@@ -1,0 +1,124 @@
+<script src="js/DataManagement/Room.js" type="text/javascript" charset="utf-8"></script>
+<div class='AllBox'>
+	<div class='AllTop'>
+		<div class='AllDiv'>
+			<span class='TextRt'>机房名称:</span>
+			<select class='RoomUser'>
+				<option value="0">全部</option>
+			</select>
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>机房性质:</span>
+			<select class='RoomNature'>
+				<option value="0">全部</option>
+				<option value="1">租用</option>
+				<option value="2">自建</option>
+				<option value="3">其他</option>
+			</select>
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>监测状态:</span>
+			<select class='RoomType'>
+				<option value="0">全部</option>
+				<option value="1">开启</option>
+				<option value="2">关闭</option>
+			</select>
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>是否上报:</span>
+			<select class='RoomReport'>
+				<option value="0">全部</option>
+				<option value="1">已上报</option>
+				<option value="2">未上报</option>
+			</select>
+		</div>
+		<div class='AllDiv'>
+			<button class='btn btn-primary btn-sm RoomSearch'>搜索</button>
+			<button class='btn btn-default btn-sm RoomReset'>重置</button>
+		</div>
+	</div>
+	<div class='AllTableBox mtop10'>
+		<table class='AllTable '>
+			<thead>
+				<tr class='AllTr RoomTr'>
+					<th><input type="checkbox" name='RoomAllCheck' class='RommeCheckBox'></th>
+					<th>IDC经营单位名称</th>
+					<th>机房名称</th>
+					<th>机房编号</th>
+					<th>所在区域</th>
+					<th>机房性质</th>
+					<th>机房地址</th>
+					<th>机房管理员信息</th>
+					<th>是否上报</th>
+					<th>未上报原因</th>
+					<th>操作</th>
+					<th>回退状态</th>
+				</tr>
+			</thead>
+			<tbody class='AllTbody'>
+				<tr>
+					<td><input type="checkbox"  name='RoomAllCheck'></td>
+					<td>上海菲信通信服务股份有限公司</td>
+					<td>上海呼兰路机房</td>
+					<td>31011305091105</td>
+					<td>上海市-市辖区-宝山区</td>
+					<td>租用</td>
+					<td>上海市宝山区呼兰路523号2楼</td>
+					<td>肖雅</td>
+					<td>已上报</td>
+					<td></td>
+					<td>
+						<img src="img/send_cel.gif" class='Alldownload' /> 
+						<img src="img/modify.png" class='Allmodify' /> 
+						<img src="img/delete.gif" class='Alldel' /> 
+						<img src="img/pic_13.png" class='Alllack' />
+					</td>
+					<td>正常</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"  name='RoomAllCheck'></td>
+					<td>上海菲信通信服务股份有限公司</td>
+					<td>上海呼兰路机房</td>
+					<td>31011305091105</td>
+					<td>上海市-市辖区-宝山区</td>
+					<td>租用</td>
+					<td>上海市宝山区呼兰路523号2楼</td>
+					<td>肖雅</td>
+					<td>已上报</td>
+					<td></td>
+					<td>
+						<img src="img/send_cel.gif" class='Alldownload' /> 
+						<img src="img/modify.png" class='Allmodify' /> 
+						<img src="img/delete.gif" class='Alldel' /> 
+						<img src="img/pic_13.png" class='Alllack' />
+					</td>
+					<td>正常</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class='AllBottom clearfix mtop10'>
+		<div class='fl'>
+			<button class='btn btn-primary btn-sm RoomDel'>批量删除</button>
+			<button class='btn btn-default btn-sm RoomAdd'>新增</button>
+			<button class='btn btn-default btn-sm RoomImport '>导入</button>
+			<button class='btn btn-default btn-sm RoomExport'>导出</button>
+		</div>
+		<div class='AllPage fr'>
+			<button class='btn btn-default btn-sm'>首页</button>
+			<button class='btn btn-default btn-sm'>上一页</button>
+			<select  class='PageSet'>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+			</select>
+			<div class='PageHide'></div>
+			<button class='btn btn-default btn-sm'>下一页</button>
+			<button class='btn btn-default btn-sm'>尾页</button>
+		</div>
+	</div>
+</div>

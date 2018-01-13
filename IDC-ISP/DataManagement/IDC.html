@@ -1,0 +1,113 @@
+<script src="js/DataManagement/IDC.js" type="text/javascript" charset="utf-8"></script>
+<div class='AllBox'>
+	<div class='AllTop'>
+		<div class='AllDiv'>
+			<span class='TextRt'>经营者名称:</span>
+			<input type="text" class='IDCUser' />
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>IDC/ISP许可证号:</span>
+			<input type="text" class='IDCLicence' />
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>企业法人:</span>
+			<input type="text" class='IDCEnterprise' />
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>是否上报:</span>
+			<select class='IDCReport'>
+				<option value="0">全部</option>
+				<option value="1">已上报</option>
+				<option value="2">未上报</option>
+			</select>
+		</div>
+		<div class='AllDiv'>
+			<button class='btn btn-primary btn-sm IDCSearch'>搜索</button>
+			<button class='btn btn-default btn-sm IDCReset'>重置</button>
+		</div>
+	</div>
+	<div class='AllTableBox mtop10'>
+		<table class='AllTable'>
+			<thead>
+				<tr class='AllTr IDCTr'>
+					<th>IDC/ISP许可证号</th>
+					<th>经营者名称</th>
+					<th>企业法人</th>
+					<th>邮政编号</th>
+					<th>经营者地址</th>
+					<th>网络信息安全负责人</th>
+					<th>应急联系人信息</th>
+					<th>生成时间</th>
+					<th>IDC/ISP机房节点数量</th>
+					<th>是否上报</th>
+					<th>未上报原因</th>
+					<th>操作</th>
+					<th>回退状态</th>
+				</tr>
+			</thead>
+			<tbody class='AllTbody'>
+				<tr>
+					<td>泸B1-20120022</td>
+					<td>上海菲信通信服务股份有限公司</td>
+					<td>马怡庆</td>
+					<td>200092</td>
+					<td>上海市杨浦区四平路2063号中天大厦403-407</td>
+					<td>肖雅</td>
+					<td>卢吉程</td>
+					<td>2017-06-26 14:18:52</td>
+					<td>1</td>
+					<td>已上报</td>
+					<td></td>
+					<td>
+						<img src="img/modify.png" class='Allmodify' /> 
+						<img src="img/delete.gif" class='Alldel' /> 
+						<img src="img/pic_13.png" class='Alllack' />
+					</td>
+					<td>正常</td>
+				</tr>
+				<tr>
+					<td>泸B1-20120022</td>
+					<td>上海菲信通信服务股份有限公司</td>
+					<td>马怡庆</td>
+					<td>200092</td>
+					<td>上海市杨浦区四平路2063号中天大厦403-407</td>
+					<td>肖雅</td>
+					<td>卢吉程</td>
+					<td>2017-06-26 14:18:52</td>
+					<td>1</td>
+					<td>已上报</td>
+					<td></td>
+					<td>
+						<img src="img/modify.png" class='Allmodify' /> 
+						<img src="img/delete.gif" class='Alldel' /> 
+						<img src="img/pic_13.png" class='Alllack' />
+					</td>
+					<td>正常</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class='AllBottom clearfix mtop10'>
+		<div class='fl'>
+			<button class='btn btn-default btn-sm IDCAdd'>新增</button>
+			<button class='btn btn-default btn-sm IDCImport '>导入</button>
+			<button class='btn btn-default btn-sm IDCExport'>导出</button>
+		</div>
+		<div class='AllPage fr'>
+			<button class='btn btn-default btn-sm'>首页</button>
+			<button class='btn btn-default btn-sm'>上一页</button>
+			<select  class='PageSet'>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+			</select>
+			<div class='PageHide'></div>
+			<button class='btn btn-default btn-sm'>下一页</button>
+			<button class='btn btn-default btn-sm'>尾页</button>
+		</div>
+	</div>
+</div>

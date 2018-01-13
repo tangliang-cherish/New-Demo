@@ -1,0 +1,80 @@
+<script src="js/DataManagement/Responsible.js" type="text/javascript" charset="utf-8"></script>
+<div class='AllBox'>
+	<div class='AllTop'>
+		<div class='AllDiv'>
+			<span class='TextRt'>姓名:</span>
+			<input type="text" class='ResponsibleUser' />
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>证件类型:</span>
+			<select class='ResponsibleType'>
+				<option value="0">全部</option>
+				<option value="1">身份证</option>
+				<option value="2">护照</option>
+				<option value="3">军官证</option>
+				<option value="4">台胞证</option>
+			</select>
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>证件号码:</span>
+			<input type="text" class='ResponsibleNum' />
+		</div>
+		<div class='AllDiv'>
+			<button class='btn btn-primary btn-sm ResponsibleSearch'>搜索</button>
+			<button class='btn btn-default btn-sm ResponsibleReset'>重置</button>
+		</div>
+	</div>
+	<div class='AllTableBox mtop10'>
+		<table class='AllTable '>
+			<thead>
+				<tr class='AllTr UserTr'>
+					<th><input type="checkbox" name='ResponsibleAllCheck' class='ResponsibleCheckBox'></th>
+					<th>姓名</th>
+					<th>证件类型</th>
+					<th>证件号码</th>
+					<th>固定电话</th>
+					<th>移动电话</th>
+					<th>Email地址</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody class='AllTbody'>
+				<tr>
+					<td><input type="checkbox"  name='ResponsibleAllCheck'></td>
+					<td>肖雅</td>
+					<td>身份证</td>
+					<td>310105198610125027</td>
+					<td>021-22816688</td>
+					<td>18019785235</td>
+					<td>xiaoy@fashion-tele.com</td>
+					<td>
+						<img src="img/modify.png" class='Allmodify' /> 
+						<img src="img/delete.gif" class='Alldel' /> 
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class='AllBottom clearfix mtop10'>
+		<div class='fl'>
+			<button class='btn btn-primary btn-sm ResponsibleDel'>批量删除</button>
+			<button class='btn btn-default btn-sm ResponsibleAdd'>新增</button>
+		</div>
+		<div class='AllPage fr'>
+			<button class='btn btn-default btn-sm'>首页</button>
+			<button class='btn btn-default btn-sm'>上一页</button>
+			<select  class='PageSet'>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+			</select>
+			<div class='PageHide'></div>
+			<button class='btn btn-default btn-sm'>下一页</button>
+			<button class='btn btn-default btn-sm'>尾页</button>
+		</div>
+	</div>
+</div>

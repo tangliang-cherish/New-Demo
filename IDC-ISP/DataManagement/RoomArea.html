@@ -1,0 +1,99 @@
+<script src="js/DataManagement/RoomArea.js" type="text/javascript" charset="utf-8"></script>
+<div class='AllBox'>
+	<div class='AllTop'>
+		<div class='AllDiv'>
+			<span class='TextRt'>机房名称:</span>
+			<select class='RoomAreaHomeName'>
+				<option value="0">全部</option>
+			</select>
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>机房片区名称:</span>
+			<input type="text" class='RoomAreaCityName'/>
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>机柜名称:</span>
+			<input type="text" class='RoomAreaName'/>
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>机柜使用类型:</span>
+			<select class='RoomAreaType'>
+				<option value="0">全部</option>
+				<option value="1">自用</option>
+				<option value="2">出租</option>
+			</select>
+		</div>
+		<div class='AllDiv'>
+			<button class='btn btn-primary btn-sm RoomAreaSearch'>搜索</button>
+			<button class='btn btn-default btn-sm RoomAreaReset'>重置</button>
+		</div>
+	</div>
+	<div class='AllTableBox mtop10'>
+		<table class='AllTable '>
+			<thead>
+				<tr class='AllTr RoomAreaTr'>
+					<th><input type="checkbox" name='RoomAreaAllCheck' class='RommeAreaCheckBox'></th>
+					<th>机房名称</th>
+					<th>机房片区名称</th>
+					<th>机房片区编号</th>
+					<th>所在区域</th>
+					<th>联系人</th>
+					<th>机房描述</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody class='AllTbody'>
+				<tr>
+					<td><input type="checkbox"  name='RoomAreaAllCheck'></td>
+					<td>上海呼兰路机房</td>
+					<td>呼兰路数据中心2-4机房</td>
+					<td>SHHLJF0002</td>
+					<td>上海市-市辖区</td>
+					<td>肖雅</td>
+					<td></td>
+					<td>
+						<img src="img/modify.png" class='Allmodify' /> 
+						<img src="img/delete.gif" class='Alldel' /> 
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"  name='RoomAreaAllCheck'></td>
+					<td>上海呼兰路机房</td>
+					<td>呼兰路数据中心2-4机房</td>
+					<td>SHHLJF0002</td>
+					<td>上海市-市辖区</td>
+					<td>肖雅</td>
+					<td></td>
+					<td>
+						<img src="img/modify.png" class='Allmodify' /> 
+						<img src="img/delete.gif" class='Alldel' /> 
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class='AllBottom clearfix mtop10'>
+		<div class='fl'>
+			<button class='btn btn-primary btn-sm RoomAreaDel'>批量删除</button>
+			<button class='btn btn-default btn-sm RoomAreaAdd'>新增</button>
+			<button class='btn btn-default btn-sm RoomAreaImport '>导入</button>
+			<button class='btn btn-default btn-sm RoomAreaExport'>导出</button>
+		</div>
+		<div class='AllPage fr'>
+			<button class='btn btn-default btn-sm'>首页</button>
+			<button class='btn btn-default btn-sm'>上一页</button>
+			<select  class='PageSet'>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+			</select>
+			<div class='PageHide'></div>
+			<button class='btn btn-default btn-sm'>下一页</button>
+			<button class='btn btn-default btn-sm'>尾页</button>
+		</div>
+	</div>
+</div>

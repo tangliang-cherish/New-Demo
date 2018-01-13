@@ -1,0 +1,78 @@
+<script src="js/DataManagement/Service.js" type="text/javascript" charset="utf-8"></script>
+<div class='AllBox'>
+	<div class='AllTop'>
+		<div class='AllDiv'>
+			<span class='TextRt'>用户单位名称:</span>
+			<input type="text" class='ServiceCityName'/>
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>接入方式:</span>
+			<select class='ServiceType'>
+				<option value="0">全部</option>
+				<option value="1">专线</option>
+				<option value="2">虚拟主机</option>
+				<option value="3">主机托管</option>
+				<option value="4">整机租用</option>
+				<option value="5">其他</option>
+			</select>
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>是否上报:</span>
+			<select class='ServiceReport'>
+				<option value="0">全部</option>
+				<option value="1">已上报</option>
+				<option value="2">未上报</option>
+			</select>
+		</div>
+		<div class='AllDiv'>
+			<button class='btn btn-primary btn-sm UserSearch'>搜索</button>
+			<button class='btn btn-default btn-sm UserReset'>重置</button>
+		</div>
+	</div>
+	<div class='AllTableBox mtop10'>
+		<table class='AllTable '>
+			<thead>
+				<tr class='AllTr UserTr'>
+					<th><input type="checkbox" name='ServiceAllCheck' class='ServiceCheckBox'></th>
+					<th>用户单位名称</th>
+					<th>服务ID</th>
+					<th>服务内容</th>
+					<th>网站备案类型</th>
+					<th>网站备案号或许可证号</th>
+					<th>接入方式</th>
+					<th>业务类型</th>
+					<th>创建时间</th>
+					<th>是否上报</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody class='AllTbody'>
+				<tr>
+					<td colspan='11' class='AllError'><span>没有查询到相关内容!</span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class='AllBottom clearfix mtop10'>
+		<div class='fl'>
+			<button class='btn btn-primary btn-sm ServiceDel'>批量删除</button>
+			<button class='btn btn-default btn-sm ServiceAdd'>新增</button>
+		</div>
+		<div class='AllPage fr'>
+			<button class='btn btn-default btn-sm'>首页</button>
+			<button class='btn btn-default btn-sm'>上一页</button>
+			<select  class='PageSet'>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+			</select>
+			<div class='PageHide'></div>
+			<button class='btn btn-default btn-sm'>下一页</button>
+			<button class='btn btn-default btn-sm'>尾页</button>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,119 @@
+<script src="js/DataManagement/User.js" type="text/javascript" charset="utf-8"></script>
+<div class='AllBox'>
+	<div class='AllTop'>
+		<div class='AllDiv'>
+			<span class='TextRt'>机房名称:</span>
+			<input type="text" class='UserHomeName'/>
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>单位名称:</span>
+			<input type="text" class='UserName'/>
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>单位属性:</span>
+			<select class='UserAttribute'>
+				<option value="0">全部</option>
+				<option value="1">军队</option>
+				<option value="2">政府机关</option>
+				<option value="1">企业</option>
+				<option value="1">个人</option>
+				<option value="1">社会团体</option>
+				<option value="1">其他</option>
+			</select>
+		</div>
+		<div class='AllDiv'>
+			<span class='TextRt'>证件类型:</span>
+			<select class='UserType'>
+				<option value="0">全部</option>
+				<option value="1">自用</option>
+				<option value="2">出租</option>
+			</select>
+		</div>
+		<div class='AllDiv'>
+			<button class='btn btn-primary btn-sm UserSearch'>搜索</button>
+			<button class='btn btn-default btn-sm UserReset'>重置</button>
+		</div>
+	</div>
+	<div class='AllTableBox mtop10'>
+		<table class='AllTable '>
+			<thead>
+				<tr class='AllTr UserTr'>
+					<th><input type="checkbox" name='UserAllCheck' class='UserCheckBox'></th>
+					<th>IDC/ISP许可证号</th>
+					<th>单位名称</th>
+					<th>单位地址</th>
+					<th>用户类型</th>
+					<th>单位属性</th>
+					<th>安全负责人</th>
+					<th>注册时间</th>
+					<th>是否上报</th>
+					<th>未上报原因</th>
+					<th>操作</th>
+					<th>回退状态</th>
+				</tr>
+			</thead>
+			<tbody class='AllTbody'>
+				<tr>
+					<td><input type="checkbox"  name='UserAllCheck'></td>
+					<td>泸B1-20120022</td>
+					<td>上海菲信通信服务股份有限公司</td>
+					<td>上海市杨浦区四平路2063号中天大厦403-407</td>
+					<td>其他用户</td>
+					<td>企业</td>
+					<td>肖雅</td>
+					<td>2008-01-28</td>
+					<td>已上报</td>
+					<td></td>
+					<td>
+						<img src="img/modify.png" class='Allmodify' /> 
+						<img src="img/delete.gif" class='Alldel' /> 
+						<img src="img/pic_13.png" class='Alllack' />
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"  name='UserAllCheck'></td>
+					<td>泸B1-20120022</td>
+					<td>上海菲信通信服务股份有限公司</td>
+					<td>上海市杨浦区四平路2063号中天大厦403-407</td>
+					<td>其他用户</td>
+					<td>企业</td>
+					<td>肖雅</td>
+					<td>2008-01-28</td>
+					<td>已上报</td>
+					<td></td>
+					<td>
+						<img src="img/modify.png" class='Allmodify' /> 
+						<img src="img/delete.gif" class='Alldel' /> 
+						<img src="img/pic_13.png" class='Alllack' />
+					</td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class='AllBottom clearfix mtop10'>
+		<div class='fl'>
+			<button class='btn btn-primary btn-sm UserDel'>批量删除</button>
+			<button class='btn btn-default btn-sm UserAdd'>新增</button>
+			<button class='btn btn-default btn-sm UserImport '>导入</button>
+			<button class='btn btn-default btn-sm UserExport'>导出</button>
+		</div>
+		<div class='AllPage fr'>
+			<button class='btn btn-default btn-sm'>首页</button>
+			<button class='btn btn-default btn-sm'>上一页</button>
+			<select  class='PageSet'>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+				<option value="">1</option>
+			</select>
+			<div class='PageHide'></div>
+			<button class='btn btn-default btn-sm'>下一页</button>
+			<button class='btn btn-default btn-sm'>尾页</button>
+		</div>
+	</div>
+</div>

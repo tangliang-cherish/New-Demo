@@ -1,0 +1,184 @@
+/*滚动条*/
+::-webkit-scrollbar {
+	width:5px;
+	background: #333;
+}
+::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #999;  
+}  
+/*顶部*/
+.Head{
+	background-image: url(../img/head.gif);
+	width: 100%;
+	height: 202px;
+	text-align: center;
+	line-height: 202px;
+}
+.Head p{
+	font-size: 45px;
+	color: white;
+}
+/*cenetr*/
+.Cont{
+	background-image: url(../img/head2.gif);
+	width: 100%;
+	height: 250px;
+	text-align: center;
+}
+.Cont span{
+	width:80px;
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+}
+.Cont input{
+	padding-left: 5px;
+	width: 220px;
+	height: 25px;
+}
+.Cont .Code{
+	width: 80px;
+}
+.Cont .CodeImg{
+	width: 135px;
+	height: 29px;
+}
+.Cont .error{
+	display: block;
+    color: red;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 205px;
+}
+.BtnBox{
+	width: 100px;
+	height: 30px;
+	border-radius:15px;
+}
+.reset{
+	margin-left: 15px;
+}
+
+/*底部*/
+.Foot{
+	background-image: url(../img/head3.gif);
+	width: 100%;
+	height: 197px;
+	text-align: center;
+}
+/*index top*/
+.Header{
+	width: 100%;
+	height: 60px;
+	/*background-color:#31B0D5 ;*/
+	z-index: 102;
+	position: fixed;
+	background-image:url(../img/header.jpg) ;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.HeadLeft{
+	margin-left: 25px;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.HeadLeft span{
+	color: white;
+	vertical-align:super;
+}
+.information{
+	margin-top: 8px;
+}
+.HeadRight{
+	color: white;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.HeadRight span{
+	padding-right: 10px;
+}
+.HeadRight span a{
+	color: white;
+}
+.HeadRight img{
+	vertical-align: middle;
+}
+.mtop-5{
+	margin-top: -5px;
+}
+.TopUser{
+	margin:25px 0 0 40px;
+	
+}
+.TopUser img{
+	vertical-align: middle;
+}
+/*Nav*/
+.NavBox{
+    width: 200px;
+    height: 100%;
+    padding-top: 60px;
+    position: relative;
+    z-index: 101;
+    background: #ededed;
+    overflow: hidden;
+}
+.NavOne{
+	width: 100%;
+	height: 100%;
+	border-right: 2px solid #737373;
+}
+.NavOne li:nth-child(1){
+	border-top:0px;
+}
+.NavOneLi,.NavTwoLi{
+	border-top:1px solid #999;
+	height: 40px;
+	line-height: 30px;
+	padding-left: 5px;
+	font-weight: bold;
+    color: #666;
+}
+.NavOneLi:hover,.NavTwoLi:hover{
+	cursor: pointer;
+	background: #0099FF;
+	color: white;
+}
+.active{
+	background: #0099FF;
+	color: white !important;
+}
+.NavOneLi span{
+	vertical-align: text-top;
+}
+.NavOneLi img{
+	width: 24px;
+    height: 24px;
+    margin-top: 6px;
+}
+.NavTwoLiA{
+	width: 100%;
+    height: 40px;
+    display: block;
+    padding-left: 45px;
+}
+/*cont*/
+.Vivw{
+	width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    padding-left: 200px;
+    position: absolute;
+    overflow-y: auto;
+}
+
