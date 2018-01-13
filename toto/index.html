@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Dome</title>
+	</head>
+	<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/angular-route/1.3.13/angular-route.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/comm.css"/>
+	<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	<body ng-app="ngRouteExample">
+		<div class='Box'>
+			<div class='Top clearfloat'>
+				<div class='fl LogoImg'>
+					<a href="#H"><img src="img/logo.png" alt="" /></a>
+				</div>
+				<div class='NavBox fl' style="display: none;">
+					<a href="#Account"><span>账号管理</span></a>
+					<a href="#Upload"><span>一键上传</span></a>
+					<a href="#State"><span>上传情况</span></a>
+					<a href="#Date"><span>数据分析</span></a>
+				</div>
+				<div class="fr TextBtn">
+					<a href="#C"><span>注册</span></a>
+					<a href="#D"><span>登录</span></a>
+				</div>
+				<div class='UserNameBox fr' style="display: none;" >
+					<a href="#"><span>Miss You</span></a>
+					<img src="img/bell.png" />
+				</div>
+			</div>
+			<div class='Head' ng-view="">
+				
+			</div>
+			<div class='Foolt'>
+				<p>闽ICP备13018967 厦门市女帝信息科技有限公司</p>
+			</div>
+			<div class='FixedOne FixedImg ImgHide'>
+				<img src="img/scroll-top.png" />	
+			</div>
+			<div class='FixedTwo FixedImg'>
+				<img src="img/qr-code.png" />	
+			</div>
+			<div class='WinXiImg ImgHide'>
+				<img src="img/qr-code-hover.png"/>
+			</div>
+			<!--<div class='FixedThree FixedImg'>
+				<img src="img/qr-code.png" />	
+			</div>-->
+		</div>
+	</body>
+	<script src="js/Home.js" type="text/javascript" charset="utf-8"></script>
+</html>

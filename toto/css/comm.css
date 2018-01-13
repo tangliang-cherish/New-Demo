@@ -1,0 +1,67 @@
+/*公共*/
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
+		font-size: 12px;
+		font-family: "微软雅黑";
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a, a:link { 
+	color: #222; 
+	text-decoration: none;
+}
+a:active, a:hover { 
+	text-decoration: none;
+}
+a:focus { 
+	outline: none; 
+}
+ul li{
+	list-style: none;
+}
+img {
+	 border: 0 none; 
+	 vertical-align: top; 
+}
+button{
+	cursor: pointer;
+	outline:none;
+}
+.clearfloat:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0
+} 
+.clearfloat{
+	zoom:1;
+}
+.fl, .fr {
+	 display: inline; 
+	 float: left; 
+}
+.fr { 
+	float: right; 
+}
+.TextRt{
+	text-align: right;
+	display: inline-block;
+}
+.mtop10{
+	margin-top:15px ;
+}
+.ptop10{
+	padding-top: 15px;
+}
+.Zindex{
+	z-index: 99;
+}
+.Zindex2{
+	z-index: 90;
+}
+.ImgHide{
+	display: none;
+}
+

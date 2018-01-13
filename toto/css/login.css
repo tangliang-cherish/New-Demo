@@ -1,0 +1,482 @@
+/*固定*/
+.FixedImg{
+	position: fixed;
+	right: 50px;
+}
+.FixedImg img{
+	width: 55px;
+	height: 55px;
+	box-shadow: 0px 10px 10px 0px #ccc;
+	cursor: pointer;
+	border-radius: 100%;
+}
+.FixedOne{
+	bottom: 200px;
+}
+.FixedTwo{
+	bottom: 135px;
+}
+.FixedThree{
+	bottom: 70px;
+}
+.WinXiImg{
+	position: fixed;
+	bottom: 35px;
+	right:115px;
+}
+/**************首页**************/
+/*顶部*/
+.Top{
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	height: 80px;
+	background: #555;
+}
+.LogoImg{
+	margin-left: 7%;
+	margin-top: 3px;
+	cursor: pointer;
+}
+.TextBtn{
+	margin-right: 7%;
+}
+.NavBox{
+	margin-left:10% ;
+}
+.NavBox span,
+.TextBtn span{
+	display: inline-block;
+	font-size: 18px;
+	height: 75px;
+	width: 120px;
+	color: white;
+	line-height: 70px;
+	text-align: center;
+	cursor: pointer;
+	transition:color 1s;
+}
+.NavBox span:hover,
+.TextBtn span:hover{
+	color: #ff576b;
+	border-bottom:5px solid #ff576b;
+}
+.BtnActive{
+	color: #ff576b !important;
+	border-bottom:5px solid #ff576b;
+}
+/*userName*/
+.UserNameBox {
+	margin-right: 10%;
+	margin-top: 20px;
+}
+.UserNameBox span{
+	display: inline-block;
+	padding: 5px;
+	margin-right: 10px;
+	height: 35px;
+	cursor: pointer;
+	font-size: 18px;
+	color: white;
+	transition:color 1s;
+}
+.UserNameBox span:hover{
+	color: #ff576b;
+	border-bottom:5px solid #ff576b;
+}
+.UserNameBox img{
+	cursor: pointer;
+}
+/*banner*/
+.Banner{
+	height: 500px;
+	width: 100%;
+	position: relative;
+}
+.BannerImg{
+	width: 100%;
+	height: 100%;
+}
+.Banner-Txt{
+	position: absolute;
+	top: 120px;
+	margin-left: 39%;
+}
+.Banner-Txt p{
+	font-family: '微软雅黑','苹方';
+	color: #666;
+	font-size: 34px;
+	margin-top: 10%;
+}
+.ImgOne{
+	position: absolute;
+	animation:ImgOne 5s linear infinite alternate;
+}
+.ImgTwo{
+	position: absolute;
+	animation:ImgTwo 4s linear infinite alternate;
+}
+.ImgThree{
+	position: absolute;
+    animation:ImgThree 4s ease-in-out infinite alternate;
+}
+.ImgFour{
+	position: absolute;
+    animation:ImgFour 4s ease-in-out infinite alternate;
+}
+/*动画*/
+@keyframes ImgOne
+{from {left: 2%;top: 2%;}
+ to {left: 20%;top: 70%;}
+}
+@keyframes ImgTwo
+{from {right: 20%;top: 60%;}
+ to{right: 15%;top: 20%;}
+}
+@keyframes ImgThree
+{from {left: 68.5%;top: 18.5%;}
+ to{left: 64.5%;top: 68%;}
+}
+@keyframes ImgFour
+{from {left: 69%;top: 17%;}
+ to{left: 65%;top: 66.5%;}
+}
+
+.Banner2{
+	position: relative;
+	
+}
+.Banner2 img{
+	margin-left: 7%;
+	width: 85%;
+	/*box-shadow: 0px 10px 5px 5px #888888;*/
+}
+
+/*切换*/
+.Head-Administer{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.Head-Administer-Image{
+	height:100%;
+}
+.Head-Administer-Image div{
+	box-shadow: 0px 10px 20px 5px #ccc;
+	cursor: pointer;
+}
+.Account{
+	position: absolute;
+	top: 22%;
+	left: 7%;
+}
+.Album{
+	position: absolute;
+	top: 11%;
+	left: 9%;
+}
+.Inform{
+	position: absolute;
+	left: 11%;
+}
+.Head-Administer-Text{
+	position: absolute;
+	right: 8%;
+	top: 15%;
+	width: 300px;
+    text-align: center;
+}
+.Head-Administer-Text-title{
+	color: #000;
+	font-size: 22px;
+	margin: 5px 0 0 10px;
+}
+.Font-Color{
+	font-size: 18px;
+	margin-top: 10px;
+	color: #999;
+	cursor: pointer;
+}
+.Font-Color:hover{
+	color: #000;
+}
+.ActiveColor{
+	color: #000 !important;
+}
+/*展示图片*/
+.Head-Administer-ShowImg{
+	background-image:  url(../img/homeBg.png);
+	background-position: 0% 20%;
+	width: 100%;
+	height: 900px;
+}
+.Head-Administer-ShowImg .SelectAccount{
+	margin-left: 30%;
+	margin-top: 5%;
+}
+.Head-Administer-Upload{
+	margin-left: 5%;
+	width: 300px;
+    text-align: center;
+}
+.Head-Administer-Upload p{
+	font-size: 18px;
+	margin-top: 10px;
+	color: #999;
+}
+.Head-Administer-Video{
+	margin-left: 35%;
+	margin-top: -7%;
+}
+.Head-Administer-DetermineUpload{
+	margin-left: 25%;
+	margin-top: -7%;
+}
+.Head-Administer-Calendar{
+	margin-left: 70%;
+	margin-top: -15%;
+}
+/*切换2*/
+.Head-Administer-Text2{
+	position: absolute;
+	left: 2%;
+	top: 15%;
+	width: 300px;
+    text-align: center;
+}
+.Chart{
+	position: absolute;
+	right: 11%;
+}
+.PrevPeriod{
+	position: absolute;
+	top: 11%;
+	right: 9%;
+}
+.DetailedDate{
+	position: absolute;
+	top: 22%;
+	right: 7%;
+}
+/*横切图片*/
+.Rotation{
+	padding-top: 3%;
+	width: 100%;
+}
+.Rotation p{
+	font-size: 24px;
+	color: #666666;
+	text-align: center;
+	padding: 5%;
+}
+.RotationLeft{
+	width: 120px;
+	height: 300px;
+	cursor: pointer;
+	background: url(../img/iconLeft.png) no-repeat 50% 50%;
+}
+.RotationImg{
+	position: relative;
+	width: 85%;
+	height: 300px;
+	overflow: hidden;
+}
+.ImgBox{
+	float: left;
+	width: 19%;
+	height: 300px;
+	margin-left: 5%;
+	box-shadow: 2px 5px 90px -4px #ccc;
+}
+.ImgBox img{
+	box-shadow: 0px 0px 20px -4px #ccc;
+    margin-left: 25px;
+}
+.RotationRight{
+	display: inline-block;
+	width: 120px;
+	height: 300px;
+	cursor: pointer;
+	background: url(../img/iconRight.png) no-repeat 50% 50%;
+}
+/**************登录页**************/
+.Login-Box{
+	background: url(../img/timg.jpg) ;
+	background-size:cover ;
+	height: 800px;
+}
+.Login-Html{
+	margin:4% auto;
+	padding-top:10% ;
+	width: 450px;
+	height: 460px;
+	background: hsla(0,0%,100%,.8);
+}
+.CenterLogin{
+	text-align: center;
+}
+.LoginUserName p{
+	padding: 60px 0 0 60px;
+	font-size: 18px;
+}
+.LoginUserName input{
+	margin-left: 13%;
+	margin-top: 10px;
+	padding-left: 10px;
+	border:none;
+	width: 80%;
+	height: 30px;
+}
+.LoginPassWord p{
+	padding: 20px 0 0 60px;
+	font-size: 18px;
+}
+.LoginPassWord input{
+	border:none;
+	margin-left: 13%;
+	margin-top: 10px;
+	padding-left: 10px;
+	width: 80%;
+	height: 30px;
+}
+.LoginBtn{
+	color:white;
+	cursor: pointer;
+	font-size: 20px;
+	width: 75%;
+	text-align: center;
+	margin: 10px auto;
+	height: 40px;
+	line-height: 40px;
+	background: #ff576b;
+}
+.LoginForgot{
+	margin: 10px auto;
+	width: 75%;
+}
+.LoginForgot .TextLeft{
+	cursor: pointer;
+	color: #ccc;
+}
+.LoginForgot .TextRight{
+	padding-left: 50%;
+	cursor: pointer;
+	color: #555;
+}
+.LoginWeiXinTxt{
+	text-align: center;
+	font-size:16px;
+	color: #666;
+}
+.LoginWeiXin{
+	text-align: center;
+	margin-top: 10px;
+}
+.LoginWeiXin img{
+	cursor: pointer;
+}
+/*底部*/
+.Foolt{
+	padding: 10px;
+	background: #555;
+}
+.Foolt p{
+	text-align: center;
+	color: white;
+}
+/*****************账号管理************/
+.AccoutBox{
+	padding-top: 80px;
+}
+.AccoutNav{
+	margin-top: 2%;
+	margin-left: 7%;
+}
+.AccoutAdminister,
+.AlbumAdminister,
+.InformList{
+	width: 240px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 14px;
+}
+.AccoutAdminister:hover,
+.AlbumAdminister:hover,
+.InformList:hover{
+	background: #ff576b;
+	color: white;
+}
+.AccountChannel{
+	margin-top: 90%;
+}
+.AccoutActive{
+	background: #ff576b;
+	color: white;
+}
+.AccountShow{
+	width: 77%;
+	padding-top: 2%;
+}
+.AccountTitle{
+	font-size: 18px;
+	padding-top: 10px;
+}
+.AccountShu{
+	display: inline-block;
+	margin-right: 30px;
+	width: 7px;
+	height: 30px;
+	background: #FF576B;
+	vertical-align: middle;
+}
+.AccountContImg{
+	padding: 20px 0 0 20px;
+}
+.AccountContImg li{
+	float: left;
+	padding: 5px ;
+	margin-right: 4%;
+}
+.AccountContImg img{
+	padding: 10px;
+	cursor: pointer;
+}
+.AccountContImg img:hover{
+	border-radius: 50%;
+	border: #FF576B solid 1px;
+}
+.AccountContImg p{
+	text-align: center;
+	padding-top: 5px;
+	font-size: 14px;
+	color: #555;
+}
+.AccountUser{
+	margin-top: 30px;
+}
+.AccountUserBox{
+	padding-left: 30%;
+	padding-top: 10%;
+}
+.AccountUserBox img{
+	width: 120px;
+	height: 120px;
+}
+.AccountUserBox p{
+	color: #555;
+	font-size: 24px;
+}
+/*上传视频*/
+.UploadSP{
+	width: 180px;
+	height: 30px;
+	background: #FF576B;
+	margin-left:2%;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	cursor: pointer;
+}
