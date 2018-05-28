@@ -1,0 +1,75 @@
+{
+	"city":["大理","巴厘岛",	"丽江","马尔代夫","三亚","厦门","叙永","自贡"	],
+	"product":[
+		{
+			"text":"大理 ___¥4999",
+			"url":[
+				"/static/product/dali/1.jpg","/static/product/dali/2.jpg","/static/product/dali/3.jpg","/static/product/dali/4.jpg",
+				"/static/product/dali/5.jpg","/static/product/dali/6.jpg","/static/product/dali/7.jpg","/static/product/dali/8.jpg",
+				"/static/product/dali/9.jpg","/static/product/dali/10.jpg","/static/product/dali/11.jpg","/static/product/dali/12.jpg",
+				"/static/product/dali/13.jpg","/static/product/dali/14.jpg","/static/product/dali/15.jpg"
+			]
+		},
+		{
+			"text":"巴厘岛 ___¥11999",
+			"url":[
+				"/static/product/bali/1.jpg","/static/product/bali/2.jpg","/static/product/bali/3.jpg","/static/product/bali/4.jpg",
+				"/static/product/bali/5.jpg","/static/product/bali/6.jpg","/static/product/bali/7.jpg","/static/product/bali/8.jpg",
+				"/static/product/bali/9.jpg","/static/product/bali/10.jpg","/static/product/bali/11.jpg","/static/product/bali/12.jpg"
+			]
+		},
+		{
+			"text":"丽江 ___¥4999",
+			"url":[
+				"/static/product/lijiang/1.jpg","/static/product/lijiang/2.jpg","/static/product/lijiang/3.jpg","/static/product/lijiang/4.jpg",
+				"/static/product/lijiang/5.jpg","/static/product/lijiang/6.jpg","/static/product/lijiang/7.jpg","/static/product/lijiang/8.jpg",
+				"/static/product/lijiang/9.jpg","/static/product/lijiang/10.jpg","/static/product/lijiang/11.jpg","/static/product/lijiang/12.jpg",
+				"/static/product/lijiang/13.jpg","/static/product/lijiang/14.jpg","/static/product/lijiang/15.jpg","/static/product/lijiang/16.jpg",
+				"/static/product/lijiang/17.jpg","/static/product/lijiang/18.jpg"
+			]
+		},
+		{
+			"text":"马尔代夫 ___¥15999",
+			"url":[
+				"/static/product/maerdaifu/1.jpg","/static/product/maerdaifu/2.jpg","/static/product/maerdaifu/3.jpg","/static/product/maerdaifu/4.jpg",
+				"/static/product/maerdaifu/5.jpg","/static/product/maerdaifu/6.jpg","/static/product/maerdaifu/7.jpg","/static/product/maerdaifu/8.jpg",
+				"/static/product/maerdaifu/9.jpg","/static/product/maerdaifu/10.jpg","/static/product/maerdaifu/11.jpg","/static/product/maerdaifu/12.jpg",
+				"/static/product/maerdaifu/13.jpg","/static/product/maerdaifu/14.jpg"
+			]
+		},
+		{
+			"text":"三亚 ___¥4999",
+			"url":[
+				"/static/product/sanya/1.jpg","/static/product/sanya/2.jpg","/static/product/sanya/3.jpg","/static/product/sanya/4.jpg",
+				"/static/product/sanya/5.jpg","/static/product/sanya/6.jpg","/static/product/sanya/7.jpg","/static/product/sanya/8.jpg",
+				"/static/product/sanya/9.jpg","/static/product/sanya/10.jpg"
+			]
+		},
+		{
+			"text":"厦门 ___¥6999",
+			"url":[
+				"/static/product/xiamen/1.jpg","/static/product/xiamen/2.jpg","/static/product/xiamen/3.jpg","/static/product/xiamen/4.jpg",
+				"/static/product/xiamen/5.jpg","/static/product/xiamen/6.jpg","/static/product/xiamen/7.jpg","/static/product/xiamen/8.jpg",
+				"/static/product/xiamen/9.jpg","/static/product/xiamen/10.jpg","/static/product/xiamen/11.jpg","/static/product/xiamen/12.jpg",
+				"/static/product/xiamen/13.jpg"
+			]
+		},
+		{
+			"text":"叙永 ___¥2980",
+			"url":[
+				"/static/product/xuyong/1.jpg","/static/product/xuyong/2.jpg","/static/product/xuyong/3.jpg","/static/product/xuyong/4.jpg",
+				"/static/product/xuyong/5.jpg","/static/product/xuyong/6.jpg","/static/product/xuyong/7.jpg","/static/product/xuyong/8.jpg",
+				"/static/product/xuyong/9.jpg","/static/product/xuyong/10.jpg","/static/product/xuyong/11.jpg","/static/product/xuyong/12.jpg",
+				"/static/product/xuyong/13.jpg","/static/product/xuyong/14.jpg","/static/product/xuyong/15.jpg"
+			]
+		},
+		{
+			"text":"自贡 ___¥4999",
+			"url":[
+				"/static/product/zigong/1.jpg","/static/product/zigong/2.jpg","/static/product/zigong/3.jpg","/static/product/zigong/4.jpg",
+				"/static/product/zigong/5.jpg","/static/product/zigong/6.jpg","/static/product/zigong/7.jpg","/static/product/zigong/8.jpg",
+				"/static/product/zigong/9.jpg"
+			]
+		}
+	]
+}

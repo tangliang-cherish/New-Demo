@@ -1,0 +1,54 @@
+{
+	"bannerArr":[
+				{"title": "1","style":{"background":"url(/static/banner/1.jpg)"}},
+				{"title": "2","style":{"background":"url(/static/banner/2.jpg)"}},
+				{"title": "3","style":{"background":"url(/static/banner/3.jpg)"}},
+				{"title": "4","style":{"background":"url(/static/banner/4.jpg)"}},
+				{"title": "5","style":{"background":"url(/static/banner/5.jpg)"}},
+				{"title": "6","style":{"background":"url(/static/banner/6.jpg)"}},
+				{"title": "7","style":{"background":"url(/static/banner/7.jpg)"}},
+				{"title": "8","style":{"background":"url(/static/banner/8.jpg)"}},
+				{"title": "9","style":{"background":"url(/static/banner/9.jpg)"}}
+	],
+	"city":["大理","巴厘岛",	"丽江","马尔代夫","三亚","厦门","叙永","自贡"	],
+	"brandtext":"景摄影，专属定制，保留每一个美好的瞬间",
+	"brandarr":[
+		{
+			"url":"/static/brand/lijiang.jpg",
+			"city":"云南 丽江",
+			"text":"蓝月谷"
+		},
+		{
+			"url":"/static/brand/pujidao.jpg",
+			"city":"泰国 普吉岛",
+			"text":"大海 小象 沙滩"
+		},
+		{
+			"url":"/static/brand/sanya.jpg",
+			"city":"海南 三亚",
+			"text":"阳光 沙滩 礁石"
+		}
+	],
+	"split":"/static/banner/split.png",
+	"brandimg":"/static/brand/show.jpg",
+	"ch":"景摄影婚纱全球旅拍成立于2010年5月1日，位于美丽的西南地区四川叙永。自成立以来秉着'诚信、专业、时尚、创新'的原则，不断的提高吸收新创意，严把质量关口，全方位服务跟踪，坚持拍出让人终身难忘的回忆照片。",
+	"en":"Jing Photography Wedding Global Travel Photography was established on May 1, 2010. located in the beautiful southwest region of Sichuan Xuyong. Since its establishment, the company has been adhering to the principles of 'integrity, professionalism, fashion, and innovation', constantly improving its ability to absorb new ideas, strictly control the quality of its products, and track all aspects of its service, and has consistently taken unforgettable memories!",
+	"productarr":[
+		{
+			"url":"/static/banner/dali.jpg",
+			"name":"大理"
+		},
+		{
+			"url":"/static/banner/lijiang.jpg",
+			"name":"丽江"
+		},
+		{
+			"url":"/static/banner/pujidao.jpg",
+			"name":"普吉岛"
+		},
+		{
+			"url":"/static/banner/sanya.jpg",
+			"name":"三亚"
+		}
+	]
+}
